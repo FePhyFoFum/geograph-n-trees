@@ -27,6 +27,7 @@ public class RecordLoader {
 		nodeIndexLat = this.gda.getNodeIndex("latitude","type", "exact");
 		nodeIndexLong = this.gda.getNodeIndex("longitude","type", "exact");
 		speciesIndex = this.gda.getNodeIndex("species","type","exact");//should be replaced with the taxonomy from otu
+		speciesIndex = this.gda.getNodeIndex("", "");
 		metaDataIndex = this.gda.getNodeIndex("source", "type", "exact");
 	}
 	
